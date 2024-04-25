@@ -3,6 +3,7 @@ let mongoose = require('mongoose')
 let cors = require('cors')
 let path = require('path')
 const { MONGO_URI } = require("./keys");
+// const adminroute =  require("./routes/adminroute")
 
 
 // const api = require('./backend/routes')
@@ -20,6 +21,7 @@ mongoose.connection.on("connected", () => {
 const app = express();
 app.use(express.json())
 app.use(cors());
+// app.use('/admin', adminRoutes);
 
 app.use('/public', express.static('public'));
 

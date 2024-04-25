@@ -1,5 +1,5 @@
 module.exports = {
     MONGO_URI:
-        "mongodb+srv://lms:Lmssystem@cluster0.mrrloa4.mongodb.net/lms?retryWrites=true&w=majority",
+        "mongodb+srv://lib:lib@cluster0.p4ymfyv.mongodb.net/lib?retryWrites=true&w=majority",
     JWT_SECRET: "MOHENMONDALJDFKFLL",
 };
